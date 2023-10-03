@@ -1,0 +1,110 @@
+* {
+    font-family: "Roboto";
+    color: #333;
+    padding: 0;
+    margin: 0;
+    caret-color: transparent ;
+    box-sizing: border-box;
+}
+#CONTAINER {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.video__player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.flow {
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+.wrp {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.auto__redirect {
+    display: flex;
+}
+.progress_bar {
+    width: 500px;
+    height: 5px;
+    background-color: #dfdfdf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.line{
+    width: 0;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    animation: slide 3s linear alternate;
+}
+.person {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    font-size: 2rem;
+}
+i {
+    height: fit-content;
+    font-size: 3rem;
+    color: #4c304d;
+}
+@keyframes slide {
+    0% {
+        width: 50px;
+    } 
+    100% {
+        width: 500px;
+    }
+}
+.fade {
+    animation: fade .5s linear alternate;
+    opacity: 0;
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    } 
+    100% {
+        opacity: 0;
+    }
+}
+.scallin {
+    animation: scallin .5s linear alternate;
+    transform: scale(0);
+}
+@keyframes scallin {
+    0% {
+        transform: scale(1);
+    } 
+    100% {
+        transform: scale(0);
+    }
+}
+
+.scallout {
+    animation: scallout 1s linear alternate;
+    transform: scale(0);
+}
+@keyframes scallout {
+    0% {
+        transform: scale(1);
+    } 
+    100% {
+        transform: scale(3);
+    }
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width: 850px) {
+  #TopNavMobile {
+    display: block !important;
+  }
+  #TopNav {
+    display: none !important;
+  }
+  #Promo .img  {
+    width: 100%;
+    height: 280px;
+  }
+  #Promo .Content {
+    width: 100%;
+  }
+  #Promo .Content div {
+    width: 100%;
+    box-shadow: none;
+
+  }
+}
+@media screen and (max-width: 1000px)  {
+  #Promo .Content div {
+    max-width: 370px;
+  }
+}
+@media screen and (max-width: 900px) {
+  #ProductsSlider #Carousel {
+    grid-auto-columns: calc((100% / 3) - 9px);
+  }
+}
+@media screen and (max-width: 600px) {
+  #ProductsSlider #Carousel {
+    grid-auto-columns: 47%;
+  }
+}
+@media screen and (max-width: 500px) {
+    #BestSeler {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+  .row {
+      display: block !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  #BlogSection .Content article {
+    width: 560px;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    max-height: fit-content;
+    padding: 20px 10px;
+}
+}

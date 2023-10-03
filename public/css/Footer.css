@@ -1,0 +1,100 @@
+/* footer section */
+#Footer {
+  width: 100%;
+  background-color: #333;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.row {
+  flex-basis: 100%;
+  display: none;
+}
+#Footer .Col1,
+#Footer .Col2,
+#Footer .Col3,
+#Footer .Col4 {
+  width: fit-content;
+}
+#Footer .Col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Footer .Col1 .Logo {
+  width: 130px;
+}
+#Footer .Col1 .Logo img {
+  width: 100%;
+}
+#Footer .Col1 .Payment-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  margin-top: 15px;
+}
+#Footer .Col1 .Payment-icons i {
+  color: #fff;
+  font-size: 20px;
+}
+
+#Footer .Col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#Footer .Col2 .C_Model {
+  background-color: #222;
+  height: 40px;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+}
+#Footer .Col2 .C_Model i {
+  height: 40px;
+  width: 40px;
+  background-color: #909090;
+  justify-content: center;
+  align-items: center;
+}
+#Footer .Col2 .C_Model span {
+  padding: 0 10px;
+}
+#Footer .Col2 .C_Model i,
+#Footer .Col2 .C_Model span {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+}
+#Footer .Footer_List li {
+  color: #fff;
+  border-bottom: 1px solid grey;
+  padding: 10px 0;
+}
+#Footer .Footer_List li:nth-child(1) {
+  padding-bottom: 30px;
+  font-weight: 800;
+  border-bottom: none;
+  border-top: 1px solid grey;
+}
+#Footer .Footer_List li i,
+#Footer .Footer_List li span {
+  font-size: 13px;
+  color: #fff;
+}
+#Footer .Footer_List li span {
+  padding-left: 10px;
+}
+.copyright {
+  width: 100%;
+}
+.copyright p {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}

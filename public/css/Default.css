@@ -1,0 +1,45 @@
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+html::-webkit-scrollbar-track {
+  background: #c1cafa;
+}
+html::-webkit-scrollbar-thumb {
+  background: #4C68FF;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a.activeLink {
+  color: gold !important;
+  font-weight: 600;
+}
+
+.success__border {
+  border-color: #adff2f !important;
+}
+.err_border {
+  border-color: #f9705b !important;
+}
+.gradient_text {
+  padding: 0 5px;
+  background: #49318d;
+  background: linear-gradient(to top right, #49318d 0%, #e34f59 75%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

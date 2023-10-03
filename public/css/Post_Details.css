@@ -1,0 +1,144 @@
+#post_details {
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
+}
+#post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+#post_details img {
+  width: 80%;
+  align-items: center;
+  border-radius: 30px;
+}
+.info {
+  padding: 30px 0;
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+}
+.info .name i,
+.info .date i {
+  color: #b9281e;
+}
+#post_details h1 {
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+
+#post_details p {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 80%;
+}
+.sug_posts {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sug_p_w {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  align-items: center;
+}
+.sug_p_w .info {
+  display: flex;
+  gap: 20px;
+  height: fit-content;
+}
+.sug_p_w img {
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+/* =============== */
+#add_comment {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+h2 {
+    text-align: left;
+    font-weight: 700;
+    padding: 8px 0;
+    width: fit-content;
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 30px;
+}
+#add_comment form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#add_comment textarea {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 126, 166);
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+#add_comment button {
+    width: 150px;
+    height: 43px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #b9281e;
+    border-radius: 8px;
+    border: none;
+}
+#add_comment button:hover {
+    background-color: #641812;
+}
+
+/* ============== */
+#comments {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.com_wrp {
+  display: flex;
+  gap: 10px;
+  flex-basis: 100%;
+}
+.com_wrp img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+.com_wrp h4 {
+  font-size: 14px;
+}
+.com_wrp span {
+  color: grey;
+  font-size: 12px;
+}
+.com_wrp p {
+  font-size: 15px;
+  max-width: 500px;
+}
+
+
+
+
+
+
+
+
